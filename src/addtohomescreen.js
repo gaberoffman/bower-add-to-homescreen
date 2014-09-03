@@ -44,8 +44,8 @@ ath.intl = {
 	},
 
 	en_us: {
-		ios: 'To add this web app to the home screen: tap %icon and then <strong>Add to Home Screen</strong>.',
-		android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
+		message: "Install this web app on your iPhone: tap %icon and then '<strong>%action</strong>'.",
+		action: { ios: 'Add to Home Screen', android: 'Add to homescreen', windows: 'pin to start' }
 	},
 
 	es_es: {
