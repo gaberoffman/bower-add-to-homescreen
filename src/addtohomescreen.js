@@ -41,7 +41,7 @@ ath.intl = {
 	},
 
 	en_us: {
-		message: 'To add this web app to the home screen: tap %icon and then <strong>%action</strong>.',
+		message: "Install this web app on your iPhone: tap %icon and then '<strong>%action</strong>'.",
 		action: { ios: 'Add to Home Screen', android: 'Add to homescreen', windows: 'pin to start' }
 	},
 
