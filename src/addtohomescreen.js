@@ -44,8 +44,8 @@ ath.intl = {
 	},
 
 	en_us: {
-		message: "Install this web app on your iPhone: tap %icon and then '<strong>%action</strong>'.",
-		action: { ios: 'Add to Home Screen', android: 'Add to homescreen', windows: 'pin to start' }
+		ios: "To install this web app on your iPhone: tap %icon and then '<strong>%action</strong>'.",
+		android: "Install this web app on your iPhone: tap %icon and then '<strong>%action</strong>'."
 	},
 
 	es_es: {
@@ -409,6 +409,7 @@ ath.Class.prototype = {
 
 		// add the action icon
 		message = '<p>' + message.replace('%icon', '<span class="ath-action-icon">icon</span>') + '</p>';
+		message = '<p>' + message.replace('%action', '<span class="">Add to homescreen</span>') + '</p>';
 
 		// create the message container
 		this.viewport = document.createElement('div');
