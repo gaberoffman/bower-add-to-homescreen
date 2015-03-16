@@ -166,7 +166,9 @@
   transform: scaleX(0.9) rotate(45deg);
   background: linear-gradient(-45deg, rgba(23, 32, 41, 0) 0%, rgba(23, 32, 41, 0) 50%, rgba(23, 32, 41, 1) 50%, rgba(23, 32, 41, 1) 100%);
   background: -webkit-linear-gradient(-45deg, rgba(23, 32, 41, 0) 0%, rgba(23, 32, 41, 0) 50%, rgba(23, 32, 41, 1) 50%, rgba(23, 32, 41, 1) 100%);
-  box-shadow: 0.2em 0.2em 0 #d1d1d1;
+  /*-webkit-box-shadow: 0.2em 0.2em 0 #d1d1d1;*/
+  /*-moz-box-shadow:  0.2em 0.2em 0 #d1d1d1;*/
+  /*box-shadow: 0.2em 0.2em 0 #d1d1d1;*/
 }
 .ath-ios.ath-tablet:after {
 /*  content: '';
@@ -196,7 +198,7 @@
   transform: scaleX(0.9) rotate(225deg);
   background: linear-gradient(-45deg, rgba(23, 32, 41, 0) 0%, rgba(23, 32, 41, 0) 50%, rgba(23, 32, 41, 1) 50%, rgba(23, 32, 41, 1) 100%);
   background: -webkit-linear-gradient(-45deg, rgba(23, 32, 41, 0) 0%, rgba(23, 32, 41, 0) 50%, rgba(23, 32, 41, 1) 50%, rgba(23, 32, 41, 1) 100%);
-  box-shadow: 0.2em 0.2em 0 #d1d1d1;
+  /*box-shadow: 0.2em 0.2em 0 #d1d1d1;*/
 }
 .ath-application-icon {
   position: relative;
@@ -209,7 +211,7 @@
 }
 .ath-container.ath-ios .ath-application-icon {
   border-radius: 1em;
-  box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.3), inset 0 0.07em 0 rgba(255, 255, 255, 0.5);
+  /*box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.3), inset 0 0.07em 0 rgba(255, 255, 255, 0.5);*/
   margin: 0 auto 0.4em auto;
 }
 @media only screen and (orientation: landscape) {
