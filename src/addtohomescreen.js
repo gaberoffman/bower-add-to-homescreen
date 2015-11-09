@@ -44,8 +44,8 @@ ath.intl = {
 	},
 
 	en_us: {
-		ios: "To install this web app on your iPhone: tap this icon %icon and then click '<strong>%action</strong>'.",
-		android: "Install this web app on your iPhone: tap %icon and then '<strong>%action</strong>'."
+		ios: "To install this web app on your device: tap this icon %icon and then click '<strong>%action</strong>'.",
+		android: "Install this web app on your device: tap %icon and then '<strong>%action</strong>'."
 	},
 
 	es_es: {
